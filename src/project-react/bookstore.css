@@ -1,0 +1,51 @@
+.group h1{
+    text-align: center;
+    padding: 20px 0;
+}
+.group{
+    width: 93%;
+    margin: auto    ;
+    box-sizing: border-box;
+}
+.books{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+.Book{
+    border: 1px solid rgb(214, 211, 211);
+   
+    width: 250px;
+       padding: 5px;
+      
+       transition: all 0.5s;
+       margin: 10px 0;
+       background-color: #eee;
+       cursor: pointer;
+}
+.Book span{
+    color: orange;
+}
+.Book:hover{
+ /* transform: scale(1.1); */
+  box-shadow:5px 5px 5px rgb(235, 228, 228);
+}
+.Book img{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+   
+}
+.Book h5:hover{
+    color: rgb(104, 104, 225);
+    transition: all 0.5s;
+}
+.star span{
+    font-size: 10px;
+    padding: 0 10px;
+   
+}

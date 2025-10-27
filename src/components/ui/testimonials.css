@@ -1,0 +1,25 @@
+#testimonials{
+    height: 100vh;
+    background-color: #f6f6f6 ;
+    /* text-align: center; */
+}
+.testimonials img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.testimonials{
+    display: flex;
+flex-direction: column;
+align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+.testimonials p{
+    width: 50rem;
+    text-align: center;
+padding: 20px 0;
+}
+.testimonials h1{
+    margin-bottom:20px ;
+}

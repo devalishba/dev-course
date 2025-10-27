@@ -1,0 +1,57 @@
+.contact{
+    text-align: center;
+    gap: 20px;
+}
+#contact{
+    height: 120vh;
+    /* background-color: slategray; */
+    background: linear-gradient( to right, #4285f4 0% , #42e2f4 100%);
+    background: url("/public/hero.jpg");
+    padding: 20px 0;
+}
+input{
+    width: 300px;
+    height: 50px;
+    margin: 10px 0;
+}
+textarea{
+        width: 300px;
+    height: 100px;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px ;
+    border: 1px solid fff;
+    width: 30rem;
+    margin-left: 35%;
+    background-color: #eee;
+    
+
+}
+.contact h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+span{
+    font-size: 20px;
+}
+.btns button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #4285f4;
+    color: white;
+    border: #4285f4;
+    transition: all 0.5s;
+    box-shadow: 0 5px 30px -5px rgba(66, 133, 244, 0.7) 
+}
+.btns{
+    margin: 20px 0;
+}
+.btns button:hover{
+    transform:scale(1.1);
+
+    
+
+}

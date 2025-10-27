@@ -1,0 +1,24 @@
+#footer{
+    height: 30vh;
+}
+.footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+.footer-icons a{
+    /* display: flex; */
+    gap: 15px;
+    color: #4285f4;
+    transition: all 0.5s;
+    padding: 5px ;
+}
+.footer-icons a:hover{
+    color: black;
+}
+.footer-para span{
+    color: red;
+}
